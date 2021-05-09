@@ -1,0 +1,82 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+@font-face {
+  font-family: "simple-line-icons";
+  src: url("../fonts/Simple-Line-Icons.eot?v=2.4.0");
+  src: url("../fonts/Simple-Line-Icons.eot?v=2.4.0#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Simple-Line-Icons.woff2?v=2.4.0") format("woff2"),
+    url("../fonts/Simple-Line-Icons.ttf?v=2.4.0") format("truetype"),
+    url("../fonts/Simple-Line-Icons.woff?v=2.4.0") format("woff"),
+    url("../fonts/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-screen-desktop:before {
+  content: "\e011";
+}
+.navbar {
+  display: flex;
+}
+
+.signin_btn {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sea_div_top {
+  background-image: url(./images/sea.jpg);
+  padding: 200px;
+}
+.sea_div h1 {
+  color: white;
+}
+.about a {
+  color: #007bff;
+}
+.about i {
+  color: #007bff;
+}
+.icon_div {
+  background-color: #f8f9fa;
+  padding: 200px;
+}
+.iphone_div {
+  display: flex;
+}
+#text_1 {
+  padding: 150px 100px;
+}
+.iphone_div td {
+  width: 50%;
+}
+
+.code_div {
+  display: flex;
+  justify-content: space-between;
+}
+.ABC_div {
+  display: flex;
+}
+.ABC_div td {
+  width: 50%;
+}
+.people_div {
+  background-color: #f8f9fa;
+  display: flex;
+}
+.people_div img {
+  border-radius: 50%;
+}
+.sea_div_btm {
+  background-image: url(./images/sea.jpg);
+  padding: 200px;
+}
+.sea_div_btm {
+  color: white;
+}
